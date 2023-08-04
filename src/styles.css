@@ -1,0 +1,13 @@
+@tailwind base;
+ 
+@tailwind components; 
+
+@tailwind utilities;
+
+.card{
+    @apply mt-8 bg-white rounded-md overflow-hidden shadow-lg
+}
+
+.btn{
+    @apply rounded-full py-2  px-3 uppercase text-xs font-bold tracking-wider;
+}
